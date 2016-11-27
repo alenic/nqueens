@@ -42,9 +42,9 @@ int mask;
 unsigned long long sol = 0;
 
 void nqueens_backtracking(int pos, int r, int d1, int d2) {
-  unsigned long long c = ~pos & mask;
+  int c = ~pos & mask;
   while(c) {
-    unsigned long long i = -c & c, newd1, newd2;
+    int i = -c & c, newd1, newd2;
       if (r+i == mask) {
         ++sol;
         return;

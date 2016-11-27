@@ -37,7 +37,7 @@ N       # Solutions
  */
 #include <stdio.h>
 #include <time.h>
-
+ 
 int mask;
 unsigned long long sol = 0;
 

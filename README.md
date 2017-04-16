@@ -36,17 +36,27 @@ N    |   # Solutions
 22   |   2691008701644
 23   |   24233937684440
 
-## Install
+## Installation
 
 In a terminal:
 
-<code>git clone https://github.com/alenic/nqueens.git</code>
+```
+$ git clone https://github.com/alenic/nqueens.git
+$ cd nqueens
+$ chmod +x make.sh
+$ ./make.sh
+```
 
-<code>chmod +x make.sh</code>
+or just compile it with command:
+```
+$ gcc -O3 -o nqueens nqueens.c
+```
 
-<code>./make.sh</code>
+Run it!
 
-or just compile with command:
+```
+$ ./nqueens
+```
 
-<code>gcc -O3 -o nqueens nqueens.c</code>
+
 

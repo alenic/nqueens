@@ -49,7 +49,7 @@ void nqueens_backtracking(int pos, int r, int d1, int d2) {
         ++sol;
         return;
       }
-      newd1 = (d1 + i) >> 1,
+      newd1 = (d1 + i) >> 1;
       newd2 = (d2 + i) << 1;
       nqueens_backtracking(((r+i) | newd1 | newd2), r+i ,newd1, newd2);
       c -= i;
